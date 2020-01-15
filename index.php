@@ -66,7 +66,7 @@
     $host = "<dekaserver.database.windows.net>";
     $user = "<deka>";
     $pass = "<Hanifahmustika12>";
-    $db = "<submission1>";
+    $db = "<Registration>";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
