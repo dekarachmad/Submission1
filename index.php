@@ -63,10 +63,10 @@
         <input type="submit" name="load_data" value="Load Data" />
     </form>
     <?php
-    $host = "<dekaserver.database.windows.net>";
-    $user = "<deka>";
-    $pass = "<Hanifahmustika12>";
-    $db = "<Registration>";
+    $host = "dekaserver.database.windows.net";
+    $user = "deka";
+    $pass = "Hanifahmustika12";
+    $db = "Registration";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
